@@ -151,7 +151,7 @@ marsh_index_dinos %>%
               mutate(ref_author = ifelse(ref_author == "Osborn", "Osborn\n(T. rex)", ref_author)),
             aes(x = 2009, y = index_cum, label = ref_author),
             size = 4, hjust = 0) +
-  labs(title = "Who won the Bone Wars? Dinosaur Edition",
+  labs(title = "Who won the Bone Wars? (Dinosaurs only)",
        subtitle = paste0("Legacy of paleontogolists using Google Ngrams of discovered genera", "\n",
                          "Class: ", paste(dino_class, collapse = ", ")),
        caption = "Data: Google Ngrams & paleobiodb.org\n
@@ -211,7 +211,7 @@ marsh_index_mammal %>%
   geom_text(data = marsh_index_mammal %>% filter(Year == 2008, ref_author %in% c("Marsh", "Cope", "Osborn")),
             aes(x = 2009, y = index_cum, label = ref_author),
             size = 4, hjust = 0) +
-  labs(title = "Who won the Bone Wars? Mammal Edition",
+  labs(title = "Who won the Bone Wars? (Mammals only)",
        subtitle = paste0("Legacy of paleontogolists using Google Ngrams of discovered genera", "\n",
                          "Class: ", paste(mammal_class, collapse = ", ")),
        caption = "Data: Google Ngrams & paleobiodb.org\n
