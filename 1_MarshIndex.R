@@ -93,7 +93,7 @@ marsh_index %>%
        Steps: (1) Collect named genera of each paleontogolist from paleobiodb.org. (2) Collect frequency of mentions of each genus in Google Ngrams. 
        (3) Sum over frequencies for each paleontologist by year, cumulate over year, divide each year by total cumulative count.\n
        @ Ryan Timpe .com",
-       y = "Legacy Index\n(normalized cumulative genera frequency in literature)", 
+       y = "Legacy Index\n(normalized cumulative genus frequency in literature)", 
        x= NULL) +
   coord_cartesian(xlim = c(1950, 2018), ylim = c(0, 0.7), expand = FALSE) +
   theme_minimal() +
@@ -158,7 +158,7 @@ marsh_index_dinos %>%
        Steps: (1) Collect named genera of each paleontogolist from paleobiodb.org. (2) Collect frequency of mentions of each genus in Google Ngrams. 
        (3) Sum over frequencies for each paleontologist by year, cumulate over year, divide each year by total cumulative count.\n
        @ Ryan Timpe .com",
-       y = "Legacy Index\n(normalized cumulative genera frequency in literature)", 
+       y = "Legacy Index\n(normalized cumulative genus frequency in literature)", 
        x= NULL) +
   coord_cartesian(xlim = c(1950, 2018), ylim = c(0, 0.7), expand = FALSE) +
   theme_minimal() +
@@ -218,7 +218,7 @@ marsh_index_mammal %>%
        Steps: (1) Collect named genera of each paleontogolist from paleobiodb.org. (2) Collect frequency of mentions of each genus in Google Ngrams. 
        (3) Sum over frequencies for each paleontologist by year, cumulate over year, divide each year by total cumulative count.\n
        @ Ryan Timpe .com",
-       y = "Legacy Index\n(normalized cumulative genera frequency in literature)", 
+       y = "Legacy Index\n(normalized cumulative genus frequency in literature)", 
        x= NULL) +
   coord_cartesian(xlim = c(1950, 2018), ylim = c(0, 0.7), expand = FALSE) +
   theme_minimal() +
